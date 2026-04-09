@@ -53,7 +53,7 @@ int main() {
     for(int i = 0; i < n; i++) {
         for(int j = 0; j < n; j++) {
             if(i==ox && j==oy){
-                printf("0 ");}
+                printf("o ");}
             else if(arena[i][j] == 0){ printf("0 ");}
             else {printf("1 ");}
         }
