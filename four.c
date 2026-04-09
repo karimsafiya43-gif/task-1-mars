@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+//apply quick sort for the mean filter 
 int part(int arr[],int low,int high){
     int i=low+1;
     int j=high;
@@ -38,7 +39,7 @@ void mean_filter(int arr[5]){
     int window[3];
    
     for(int i=1;i<4;i++){
-
+//mean of the three adjacent elements in array and store it in windows array
         window[i-1]=(arr[i-1]+arr[i]+arr[i+1])/3;
     }
 
@@ -55,16 +56,16 @@ void med(int arr[5])
 {
     int b[3];
 int window[3];
-
+//store array elements in temporary b array for current window of 3 elements
     for(int i=1;i<4;i++)
     {
         b[0]=arr[i-1];
         b[1]=arr[i];
         b[2]=arr[i+1];
-
+// Copy the current element and its two neighbors into the array b
         quick_sort(b,0,2);   
 
-        window[i-1] = b[1];  
+        window[i-1] = b[1];  //Array to hold filtered value
     }
 
     printf("The median filter gives:\n");
