@@ -52,9 +52,10 @@ int main() {
     printf("Generated Arena:\n");
     for(int i = 0; i < n; i++) {
         for(int j = 0; j < n; j++) {
-           
-            if(arena[i][j] == 0) printf("0 ");
-            else printf("1 ");
+            if(i==ox && j==oy){
+                printf("0 ");}
+            else if(arena[i][j] == 0){ printf("0 ");}
+            else {printf("1 ");}
         }
         printf("\n");
     }
