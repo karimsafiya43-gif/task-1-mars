@@ -66,6 +66,13 @@ behaviour tree, i explored the AND, OR cases used in the tree and how the rover 
 
 Overall I got to learn a lot using this task making use of the basic codes i learnt into codes that might be used in the real life scenario.
 
+to create the github repository 
+i created an account using my Gmail and click of the left dashboard 
+there is an option for creating new repository
+I clicked on it 
+then I uploaded the documents containing codes as well as the jpg files 
+and saved it
+I enabled the settings to public view.
 
 
 
